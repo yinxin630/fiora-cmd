@@ -1,12 +1,13 @@
 import React from 'react';
 import { render, Box } from 'ink';
 
-import Login from './Login';
+import './socket';
+
+import Login from './modules/Login';
 
 function App() {
     return (
         <Box>
-            <Box>app page</Box>
             <Login />
         </Box>
     );
